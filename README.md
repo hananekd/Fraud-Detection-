@@ -26,11 +26,9 @@ As previously mentioned, our project has two primary objectives. First, we aim t
 ### Training Phase
 The training phase involves the development and training of the machine learning models. This phase consists of three code files:
 
-1. **fraude_cases.ipynb**: This file calculates additional features using data provided by the company and saves this new data in a file called `fraudecases.csv`. This dataset will serve as the basis for training our models.
+1. **unsupervised_learning.ipynb**: This file applies unsupervised learning techniques to detect anomalies or fraud cases within our dataset.
 
-2. **unsupervised_learning.ipynb**: This file applies unsupervised learning techniques to detect anomalies or fraud cases within our dataset.
-
-3. **supervised_learning.ipynb**: This file is dedicated to developing the two models mentioned earlier. It first utilizes `scaled_df.csv`, which is the previously calculated data, but scaled, and applies various models for binary and multi-output classification.
+2. **supervised_learning.ipynb**: This file is dedicated to developing the two models mentioned earlier. It first utilizes `scaled_df.csv`, which is the previously calculated data, but scaled, and applies various models for binary and multi-output classification.
 
 ### Testing Phase
 The testing phase focuses on the deployment of our solution. It involves the creation of a web application that:
